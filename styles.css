@@ -109,7 +109,6 @@ main {
     flex-wrap: wrap;
     padding-left: 5%;
     padding-right: 5%;
-    /*margin-right: 5%;*/
     margin-left: 5%;
 }
 
@@ -147,9 +146,7 @@ main {
     padding-top: 3%;
     padding-bottom: 3%;
     padding-left: 10%;
-    padding-right: 5%;
-    /*margin-left: 3%;
-    margin-right: 3%;*/
+    padding-right: 1%;
     margin-top: 3%;
     background-color: #4A5568;
     color: white;
@@ -163,23 +160,22 @@ main {
 .testing-description p {
     display: flex;
     flex-wrap: wrap;
-    padding-right: 10%;
-    padding-left: 5%;
-    margin-right: 10%;
-    margin-left: 0%;
+    padding-right: 30%;
+    padding-left: 20%;
+    position: relative;
 }
 
 .cta a {
     display: flex;
     flex-wrap: nowrap;
-    padding-left: 15%;
+    padding-left: 30%;
     padding-top: 10%;
     padding-bottom: 10%;
-    padding-right: 15%;
-    margin-left: 10%;
+    padding-right: 30%;
     background-color: #48BB78;
     border-radius: 5px;
     text-decoration: none;
+    position: relative;
 }
 
 .stories img {
@@ -217,6 +213,11 @@ main {
     padding-bottom: 3%;
 }
 
+.newsletter .container h3{
+    padding-left: 13%;
+    padding-bottom: 0%;
+}
+
 .newsletter {
     display: flex;
     flex-wrap: wrap;
@@ -238,11 +239,25 @@ main {
     float: right;
     position: relative;
     background-color: #5A67D8;
+    border: 0px;
+    border-radius: 3%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 form {
     display: flex;
     flex-direction: row;
+}
+
+input{
+    padding-right: 65px;
+    padding-left: 65px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 0px;
+    border-radius: 3%;
+    margin-right: 3px;
 }
 
 footer {
